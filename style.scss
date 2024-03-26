@@ -55,7 +55,8 @@ $orange: #ff9b00;
       border-radius: 12px;
     }
     .code-preview {
-      overflow-x: scroll;
+      padding: 4px;
+      overflow-y: scroll;
     }
   }
 }
