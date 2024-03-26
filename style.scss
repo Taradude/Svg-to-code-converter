@@ -44,12 +44,17 @@ $orange: #ff9b00;
     flex: 1;
     border: 4px solid $black;
     border-radius: 15px;
-
+    h2 {
+      font-size: 2vw;
+    }
     input {
       background-color: #ececec;
       color: $black;
       padding: 6px;
       border-radius: 12px;
+    }
+    .code-preview {
+      overflow-x: scroll;
     }
   }
 }
