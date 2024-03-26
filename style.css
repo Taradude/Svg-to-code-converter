@@ -40,12 +40,20 @@
   border: 4px solid #303030;
   border-radius: 15px;
 }
+.bottom .left h2,
+.bottom .right h2 {
+  font-size: 2vw;
+}
 .bottom .left input,
 .bottom .right input {
   background-color: #ececec;
   color: #303030;
   padding: 6px;
   border-radius: 12px;
+}
+.bottom .left .code-preview,
+.bottom .right .code-preview {
+  overflow-x: scroll;
 }
 
 
